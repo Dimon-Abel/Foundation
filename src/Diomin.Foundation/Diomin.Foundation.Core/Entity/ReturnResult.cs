@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Diomin.Foundation.Core.Entity
+namespace Foundation.Core.Entity
 {
     /// <summary>
     /// 返回码

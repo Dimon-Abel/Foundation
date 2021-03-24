@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Diomin.Foundation.Server.Packs.Enum
+namespace Foundation.Server.Packs.Enum
 {
     /// <summary>
     ///     模块级别，级别越核心，优先启动

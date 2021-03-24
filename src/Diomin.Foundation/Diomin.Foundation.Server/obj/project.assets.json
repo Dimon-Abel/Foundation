@@ -294,7 +294,7 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
-      "Diomin.Foundation.Core/1.0.0": {
+      "Foundation.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
@@ -310,10 +310,10 @@
           "System.Drawing.Common": "5.0.2"
         },
         "compile": {
-          "bin/placeholder/Diomin.Foundation.Core.dll": {}
+          "bin/placeholder/Foundation.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Diomin.Foundation.Core.dll": {}
+          "bin/placeholder/Foundation.Core.dll": {}
         }
       }
     }
@@ -1043,15 +1043,15 @@
         "version.txt"
       ]
     },
-    "Diomin.Foundation.Core/1.0.0": {
+    "Foundation.Core/1.0.0": {
       "type": "project",
-      "path": "../Diomin.Foundation.Core/Diomin.Foundation.Core.csproj",
-      "msbuildProject": "../Diomin.Foundation.Core/Diomin.Foundation.Core.csproj"
+      "path": "../Diomin.Foundation.Core/Foundation.Core.csproj",
+      "msbuildProject": "../Diomin.Foundation.Core/Foundation.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Diomin.Foundation.Core >= 1.0.0",
+      "Foundation.Core >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0",
       "Microsoft.Extensions.DependencyModel >= 5.0.0"
     ]
@@ -1063,9 +1063,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Server\\Diomin.Foundation.Server.csproj",
-      "projectName": "Diomin.Foundation.Server",
-      "projectPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Server\\Diomin.Foundation.Server.csproj",
+      "projectUniqueName": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Server\\Foundation.Server.csproj",
+      "projectName": "Foundation.Server",
+      "projectPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Server\\Foundation.Server.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Server\\obj\\",
       "projectStyle": "PackageReference",
@@ -1088,8 +1088,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Diomin.Foundation.Core.csproj": {
-              "projectPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Diomin.Foundation.Core.csproj"
+            "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Foundation.Core.csproj": {
+              "projectPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Foundation.Core.csproj"
             }
           }
         }

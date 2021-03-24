@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Diomin.Foundation.Core.Data
+namespace Foundation.Core.Data
 {
     /// <summary>
     /// 数据查询对象

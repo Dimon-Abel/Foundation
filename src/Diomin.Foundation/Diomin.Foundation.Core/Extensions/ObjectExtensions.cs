@@ -9,7 +9,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace Diomin.Foundation.Core.Extensions
+namespace Foundation.Core.Extensions
 {
     public static class ObjectExtensions
     {

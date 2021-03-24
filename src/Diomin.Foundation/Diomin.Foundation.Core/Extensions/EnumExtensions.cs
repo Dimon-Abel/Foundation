@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
 
-namespace Diomin.Foundation.Core.Extensions
+namespace Foundation.Core.Extensions
 {
     /// <summary>
     /// 枚举类扩展

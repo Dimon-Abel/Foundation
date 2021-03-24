@@ -1,9 +1,9 @@
-﻿using Diomin.Foundation.Core.Extensions;
-using Diomin.Foundation.Server.Reflection.Interface;
+﻿using Foundation.Core.Extensions;
+using Foundation.Server.Reflection.Interface;
 using System;
 using System.Linq;
 
-namespace Diomin.Foundation.Server.Reflection.Base
+namespace Foundation.Server.Reflection.Base
 {
     /// <summary>
     ///     标注了指定<see cref="Attribute" />特性的类型的查找器基类

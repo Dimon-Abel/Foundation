@@ -1,4 +1,4 @@
-﻿namespace Diomin.Foundation.Server.Reflection.Interface
+﻿namespace Foundation.Server.Reflection.Interface
 {
     /// <summary>
     /// 依赖注入类型查找器，查找标注了<see cref="DependencyAttribute"/>特性，

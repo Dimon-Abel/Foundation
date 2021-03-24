@@ -1,12 +1,12 @@
-﻿using Diomin.Foundation.Core.Data;
-using Diomin.Foundation.Server.Reflection.Interface;
-using Diomin.Foundation.Server.Reflection.Realization;
-using Diomin.Foundation.Server.ServerBuilder.Interface;
-using Diomin.Foundation.Server.ServerBuilder.Realization;
+﻿using Foundation.Core.Data;
+using Foundation.Server.Reflection.Interface;
+using Foundation.Server.Reflection.Realization;
+using Foundation.Server.ServerBuilder.Interface;
+using Foundation.Server.ServerBuilder.Realization;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Diomin.Foundation.Server
+namespace Foundation.Server
 {
     /// <summary>
     ///     依赖注入服务集合扩展

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Diomin.Foundation.Core.Extensions
+namespace Foundation.Core.Extensions
 {
     /// <summary>
     /// 随机数类型的辅助类

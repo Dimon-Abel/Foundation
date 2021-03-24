@@ -1,4 +1,4 @@
-﻿using Diomin.Foundation.Core.Data;
+﻿using Foundation.Core.Data;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Diomin.Foundation.Core.Extensions
+namespace Foundation.Core.Extensions
 {
     /// <summary>
     /// 类型辅助扩展类

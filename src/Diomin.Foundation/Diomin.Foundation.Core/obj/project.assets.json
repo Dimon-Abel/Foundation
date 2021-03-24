@@ -973,9 +973,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Diomin.Foundation.Core.csproj",
-      "projectName": "Diomin.Foundation.Core",
-      "projectPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Diomin.Foundation.Core.csproj",
+      "projectUniqueName": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Foundation.Core.csproj",
+      "projectName": "Foundation.Core",
+      "projectPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Foundation.Core.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\obj\\",
       "projectStyle": "PackageReference",

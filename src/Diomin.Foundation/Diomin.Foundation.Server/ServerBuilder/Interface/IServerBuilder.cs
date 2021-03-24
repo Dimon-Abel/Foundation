@@ -1,8 +1,8 @@
-﻿using Diomin.Foundation.Server.Packs;
+﻿using Foundation.Server.Packs;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 
-namespace Diomin.Foundation.Server.ServerBuilder.Interface
+namespace Foundation.Server.ServerBuilder.Interface
 {
     /// <summary>
     ///     定义框架服务构建器

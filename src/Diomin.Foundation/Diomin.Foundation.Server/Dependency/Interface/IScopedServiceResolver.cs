@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Diomin.Foundation.Server.Dependency.Interface
+namespace Foundation.Server.Dependency.Interface
 {
     /// <summary>
     ///     <see cref="ServiceLifetime.Scoped" />服务解析器

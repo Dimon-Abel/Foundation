@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace Diomin.Foundation.Server.Packs.Interface
+namespace Foundation.Server.Packs.Interface
 {
     public interface IPackManager
     {

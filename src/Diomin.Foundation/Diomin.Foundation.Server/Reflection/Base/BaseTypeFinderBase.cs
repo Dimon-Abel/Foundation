@@ -1,9 +1,9 @@
-﻿using Diomin.Foundation.Core.Extensions;
-using Diomin.Foundation.Server.Reflection.Interface;
+﻿using Foundation.Core.Extensions;
+using Foundation.Server.Reflection.Interface;
 using System;
 using System.Linq;
 
-namespace Diomin.Foundation.Server.Reflection.Base
+namespace Foundation.Server.Reflection.Base
 {
     /// <summary>
     ///     指定基类的实现类型查找器基类

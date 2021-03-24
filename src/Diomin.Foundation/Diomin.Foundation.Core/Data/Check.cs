@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Diomin.Foundation.Core.Data
+namespace Foundation.Core.Data
 {
     public static class Check
     {

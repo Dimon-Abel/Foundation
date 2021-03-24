@@ -1,6 +1,6 @@
-﻿using Diomin.Foundation.Core.Extensions;
-using Diomin.Foundation.Server.Reflection.Base;
-using Diomin.Foundation.Server.Reflection.Interface;
+﻿using Foundation.Core.Extensions;
+using Foundation.Server.Reflection.Base;
+using Foundation.Server.Reflection.Interface;
 using Microsoft.Extensions.DependencyModel;
 using Microsoft.Extensions.DependencyModel.Resolution;
 using System;
@@ -10,7 +10,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace Diomin.Foundation.Server.Reflection.Realization
+namespace Foundation.Server.Reflection.Realization
 {
     /// <summary>
     ///     应用程序目录程序集查找器

@@ -4,12 +4,12 @@
     "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Server\\Diomin.Foundation.Server.csproj": {}
   },
   "projects": {
-    "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Diomin.Foundation.Core.csproj": {
+    "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Foundation.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Diomin.Foundation.Core.csproj",
-        "projectName": "Diomin.Foundation.Core",
-        "projectPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Diomin.Foundation.Core.csproj",
+        "projectUniqueName": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Foundation.Core.csproj",
+        "projectName": "Foundation.Core",
+        "projectPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Foundation.Core.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\obj\\",
         "projectStyle": "PackageReference",
@@ -132,8 +132,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Diomin.Foundation.Core.csproj": {
-                "projectPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Diomin.Foundation.Core.csproj"
+              "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Foundation.Core.csproj": {
+                "projectPath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Core\\Foundation.Core.csproj"
               }
             }
           }

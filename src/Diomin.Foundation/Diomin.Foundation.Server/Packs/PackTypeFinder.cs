@@ -1,7 +1,7 @@
-﻿using Diomin.Foundation.Server.Reflection.Base;
-using Diomin.Foundation.Server.Reflection.Interface;
+﻿using Foundation.Server.Reflection.Base;
+using Foundation.Server.Reflection.Interface;
 
-namespace Diomin.Foundation.Server.Packs
+namespace Foundation.Server.Packs
 {
     /// <summary>
     ///     Engine模块类型查找器

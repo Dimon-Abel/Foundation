@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Diomin.Foundation.Core.Data
+namespace Foundation.Core.Data
 {
     /// <summary>
     ///     定义一个指定类型的单例，该实例的生命周期将跟随整个应用程序。

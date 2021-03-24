@@ -1,8 +1,8 @@
-﻿using Diomin.Foundation.Core.Extensions;
+﻿using Foundation.Core.Extensions;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Diomin.Foundation.Core.Utility
+namespace Foundation.Core.Utility
 {
     /// <summary>
     /// 字符串Hash操作类

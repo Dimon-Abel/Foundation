@@ -6,7 +6,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Diomin.Foundation.Core.Extensions
+namespace Foundation.Core.Extensions
 {
     /// <summary>
     /// 集合排序辅助类

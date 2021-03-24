@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GV+tVsdYGgKevWbleX2PNKkVo+ZFuulZ6LI1KJJsWlJS6QH47Chpe0ZpGXoRThkB8cnBOCsAUj9G7ixDY1zQHg==",
+  "dgSpecHash": "LyUWlYMJ/t+HTKAJvx6n3rFLldgtGOZGJ+bGe7RAw2JHe7jp2msjynXQKpjJQNowDqhOy6K3WBJ/h6QsZW2rAw==",
   "success": true,
-  "projectFilePath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Server\\Diomin.Foundation.Server.csproj",
+  "projectFilePath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Server\\Foundation.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

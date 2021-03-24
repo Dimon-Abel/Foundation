@@ -1,10 +1,10 @@
-﻿using Diomin.Foundation.Server.Dependency.Interface;
+﻿using Foundation.Server.Dependency.Interface;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Diomin.Foundation.Server.Dependency.Reflection
+namespace Foundation.Server.Dependency.Reflection
 {
     /// < summary >
     ///默认< see  cref = " IServiceScope " />工厂，行为和< see  cref = " IServiceScopeFactory " />一样

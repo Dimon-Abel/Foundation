@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Diomin.Foundation.Server.Dependency
+namespace Foundation.Server.Dependency
 {
     /// <summary>
     ///     标记允许多重注入，即一个接口可以注入多个实例

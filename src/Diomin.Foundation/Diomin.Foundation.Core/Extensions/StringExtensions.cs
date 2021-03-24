@@ -1,4 +1,4 @@
-﻿using Diomin.Foundation.Core.Utility;
+﻿using Foundation.Core.Utility;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Diomin.Foundation.Core.Extensions
+namespace Foundation.Core.Extensions
 {
     /// <summary>
     /// 字符串扩展方法类

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Diomin.Foundation.Core.Utility
+namespace Foundation.Core.Utility
 {
     /// <summary>
     ///     相等比较辅助类，用于快速创建<see cref="IEqualityComparer{T}" />的实例

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Diomin.Foundation.Server.Reflection.Interface
+namespace Foundation.Server.Reflection.Interface
 {
     /// <summary>
     ///     定义方法信息查找器

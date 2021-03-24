@@ -1,4 +1,4 @@
-﻿using Diomin.Foundation.Core.Data;
+﻿using Foundation.Core.Data;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Diomin.Foundation.Core.Extensions
+namespace Foundation.Core.Extensions
 {
     /// <summary>
     ///     集合扩展方法类

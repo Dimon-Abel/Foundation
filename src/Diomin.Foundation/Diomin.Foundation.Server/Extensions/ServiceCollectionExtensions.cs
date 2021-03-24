@@ -1,10 +1,10 @@
-﻿using Diomin.Foundation.Server.Reflection.Interface;
-using Diomin.Foundation.Server.Reflection.Realization;
+﻿using Foundation.Server.Reflection.Interface;
+using Foundation.Server.Reflection.Realization;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 
-namespace Diomin.Foundation.Server.Extensions
+namespace Foundation.Server.Extensions
 {
     /// <summary>
     /// <see cref="IServiceCollection"/>扩展方法

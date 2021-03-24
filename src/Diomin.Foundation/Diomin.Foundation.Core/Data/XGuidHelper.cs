@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Diomin.Foundation.Core.Data
+namespace Foundation.Core.Data
 {
     /// <summary>
     ///     由Guid与DateTime混合构成的可排序字符串操作类

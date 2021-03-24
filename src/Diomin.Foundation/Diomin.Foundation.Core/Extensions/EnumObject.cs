@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Diomin.Foundation.Core.Extensions
+namespace Foundation.Core.Extensions
 {
     /// <summary>
     /// 枚举、类型的值

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Diomin.Foundation.Server.Dependency
+namespace Foundation.Server.Dependency
 {
     /// < summary >
     ///依赖注入行为特性

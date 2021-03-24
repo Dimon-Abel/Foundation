@@ -1,11 +1,11 @@
-﻿using Diomin.Foundation.Server.Reflection.Interface;
+﻿using Foundation.Server.Reflection.Interface;
 using System;
 using System.Collections.Concurrent;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace Diomin.Foundation.Server.Reflection.Realization
+namespace Foundation.Server.Reflection.Realization
 {
     /// <summary>
     ///     目录程序集查找器

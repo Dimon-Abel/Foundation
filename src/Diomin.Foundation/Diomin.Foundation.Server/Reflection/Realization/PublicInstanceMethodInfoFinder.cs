@@ -1,9 +1,9 @@
-﻿using Diomin.Foundation.Server.Reflection.Interface;
+﻿using Foundation.Server.Reflection.Interface;
 using System;
 using System.Linq;
 using System.Reflection;
 
-namespace Diomin.Foundation.Server.Reflection.Realization
+namespace Foundation.Server.Reflection.Realization
 {
     /// <summary>
     ///     公共实例方法查找器

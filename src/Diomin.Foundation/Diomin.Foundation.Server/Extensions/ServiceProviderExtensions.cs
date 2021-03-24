@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Diomin.Foundation.Server.Dependency.Interface;
+using Foundation.Server.Dependency.Interface;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Diomin.Foundation.Server.Extensions
+namespace Foundation.Server.Extensions
 {
     /// <summary>
     /// <see cref="IServiceProvider"/>扩展方法

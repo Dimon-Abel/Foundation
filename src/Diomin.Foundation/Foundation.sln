@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diomin.Foundation.Server", "Diomin.Foundation.Server\Diomin.Foundation.Server.csproj", "{92C61A5B-68BC-43C2-9290-F56BD3762EA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.Server", "Diomin.Foundation.Server\Foundation.Server.csproj", "{92C61A5B-68BC-43C2-9290-F56BD3762EA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diomin.Foundation.Core", "Diomin.Foundation.Core\Diomin.Foundation.Core.csproj", "{15F74AF2-DB68-49E7-B0A6-5B3ED1E07C5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.Core", "Diomin.Foundation.Core\Foundation.Core.csproj", "{15F74AF2-DB68-49E7-B0A6-5B3ED1E07C5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

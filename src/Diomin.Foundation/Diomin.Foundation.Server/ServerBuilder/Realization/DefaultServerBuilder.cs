@@ -1,16 +1,16 @@
-﻿using Diomin.Foundation.Core.Data;
-using Diomin.Foundation.Core.Utility;
-using Diomin.Foundation.Server.Extensions;
-using Diomin.Foundation.Server.Packs;
-using Diomin.Foundation.Server.Reflection.Interface;
-using Diomin.Foundation.Server.ServerBuilder.Interface;
+﻿using Foundation.Core.Data;
+using Foundation.Core.Utility;
+using Foundation.Server.Extensions;
+using Foundation.Server.Packs;
+using Foundation.Server.Reflection.Interface;
+using Foundation.Server.ServerBuilder.Interface;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Diomin.Foundation.Server.ServerBuilder.Realization
+namespace Foundation.Server.ServerBuilder.Realization
 {
     public class DefaultServerBuilder : IServerBuilder
     {

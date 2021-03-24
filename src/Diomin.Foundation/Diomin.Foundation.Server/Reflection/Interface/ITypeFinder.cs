@@ -1,7 +1,7 @@
-﻿using Diomin.Foundation.Server.Dependency;
+﻿using Foundation.Server.Dependency;
 using System;
 
-namespace Diomin.Foundation.Server.Reflection.Interface
+namespace Foundation.Server.Reflection.Interface
 {
     /// <summary>
     ///     定义类型查找行为

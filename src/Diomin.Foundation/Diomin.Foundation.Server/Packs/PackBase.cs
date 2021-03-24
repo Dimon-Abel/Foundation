@@ -1,10 +1,10 @@
-﻿using Diomin.Foundation.Core.Extensions;
-using Diomin.Foundation.Server.Dependency;
-using Diomin.Foundation.Server.Packs.Enum;
+﻿using Foundation.Core.Extensions;
+using Foundation.Server.Dependency;
+using Foundation.Server.Packs.Enum;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Diomin.Foundation.Server.Packs
+namespace Foundation.Server.Packs
 {
     public abstract class PackBase
     {

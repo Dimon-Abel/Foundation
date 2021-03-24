@@ -1,8 +1,8 @@
-﻿using Diomin.Foundation.Core.Extensions;
+﻿using Foundation.Core.Extensions;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace Diomin.Foundation.Core.Utility
+namespace Foundation.Core.Utility
 {
     /// <summary>
     /// Appsetting.Json管理器

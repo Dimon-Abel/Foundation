@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Diomin.Foundation.Server.Dependency
+namespace Foundation.Server.Dependency
 {
     /// <summary>
     ///     定义Engine模块依赖

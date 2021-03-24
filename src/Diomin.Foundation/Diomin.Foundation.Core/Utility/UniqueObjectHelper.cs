@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace Diomin.Foundation.Core.Utility
+namespace Foundation.Core.Utility
 {
     #region 生成全局唯一值
 
