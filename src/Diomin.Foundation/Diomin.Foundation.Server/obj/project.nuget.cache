@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zbs9zbqholBecnZsK3wrQqHbecJGRSkDxNsjyGX0yPQD5xvn1NYHduudUnk5TfNmJj1A7GQjl8K9/7lAdlY8Lg==",
+  "success": true,
+  "projectFilePath": "C:\\Project\\Foundation\\src\\Diomin.Foundation\\Diomin.Foundation.Server\\Diomin.Foundation.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

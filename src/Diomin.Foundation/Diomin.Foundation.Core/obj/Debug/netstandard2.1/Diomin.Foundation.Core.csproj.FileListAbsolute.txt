@@ -1,0 +1,8 @@
+C:\Project\Diomin.Foundation\Diomin.Foundation\Diomin.Foundation.Core\obj\Debug\netstandard2.1\Diomin.Foundation.Core.AssemblyInfoInputs.cache
+C:\Project\Diomin.Foundation\Diomin.Foundation\Diomin.Foundation.Core\obj\Debug\netstandard2.1\Diomin.Foundation.Core.AssemblyInfo.cs
+C:\Project\Diomin.Foundation\Diomin.Foundation\Diomin.Foundation.Core\obj\Debug\netstandard2.1\Diomin.Foundation.Core.csproj.CoreCompileInputs.cache
+C:\Project\Diomin.Foundation\Diomin.Foundation\Diomin.Foundation.Core\bin\Debug\netstandard2.1\Diomin.Foundation.Core.deps.json
+C:\Project\Diomin.Foundation\Diomin.Foundation\Diomin.Foundation.Core\bin\Debug\netstandard2.1\Diomin.Foundation.Core.dll
+C:\Project\Diomin.Foundation\Diomin.Foundation\Diomin.Foundation.Core\bin\Debug\netstandard2.1\Diomin.Foundation.Core.pdb
+C:\Project\Diomin.Foundation\Diomin.Foundation\Diomin.Foundation.Core\obj\Debug\netstandard2.1\Diomin.Foundation.Core.dll
+C:\Project\Diomin.Foundation\Diomin.Foundation\Diomin.Foundation.Core\obj\Debug\netstandard2.1\Diomin.Foundation.Core.pdb
