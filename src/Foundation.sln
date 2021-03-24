@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.Server", "Founda
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.EventBus", "Foundation.EventBus\Foundation.EventBus.csproj", "{8913E386-B98C-4C2B-B330-5A95D0DD1703}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.Dapper", "Foundation.Dapper\Foundation.Dapper.csproj", "{4F5EDB09-9165-4278-9624-185416AD46EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8913E386-B98C-4C2B-B330-5A95D0DD1703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8913E386-B98C-4C2B-B330-5A95D0DD1703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8913E386-B98C-4C2B-B330-5A95D0DD1703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5EDB09-9165-4278-9624-185416AD46EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5EDB09-9165-4278-9624-185416AD46EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5EDB09-9165-4278-9624-185416AD46EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5EDB09-9165-4278-9624-185416AD46EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

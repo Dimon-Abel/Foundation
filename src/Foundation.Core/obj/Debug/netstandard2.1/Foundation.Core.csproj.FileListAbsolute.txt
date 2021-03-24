@@ -1,7 +1,6 @@
 C:\Project\Foundation\src\Foundation.Core\bin\Debug\netstandard2.1\Foundation.Core.deps.json
 C:\Project\Foundation\src\Foundation.Core\bin\Debug\netstandard2.1\Foundation.Core.dll
 C:\Project\Foundation\src\Foundation.Core\bin\Debug\netstandard2.1\Foundation.Core.pdb
-C:\Project\Foundation\src\Foundation.Core\obj\Debug\netstandard2.1\Foundation.Core.csprojAssemblyReference.cache
 C:\Project\Foundation\src\Foundation.Core\obj\Debug\netstandard2.1\Foundation.Core.AssemblyInfoInputs.cache
 C:\Project\Foundation\src\Foundation.Core\obj\Debug\netstandard2.1\Foundation.Core.AssemblyInfo.cs
 C:\Project\Foundation\src\Foundation.Core\obj\Debug\netstandard2.1\Foundation.Core.csproj.CoreCompileInputs.cache
