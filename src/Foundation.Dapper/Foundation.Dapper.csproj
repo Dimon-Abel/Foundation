@@ -5,15 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.0" />
     <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="MySql.Data" Version="8.0.23" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Foundation.Server\Foundation.Server.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Realization\" />
   </ItemGroup>
 
 </Project>

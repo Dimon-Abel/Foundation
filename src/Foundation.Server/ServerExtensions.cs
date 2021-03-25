@@ -1,8 +1,10 @@
 ﻿using Foundation.Core.Data;
+using Foundation.Server.Middlewate;
 using Foundation.Server.Reflection.Interface;
 using Foundation.Server.Reflection.Realization;
 using Foundation.Server.ServerBuilder.Interface;
 using Foundation.Server.ServerBuilder.Realization;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
@@ -27,7 +29,6 @@ namespace Foundation.Server
 
             IServerBuilder builder = new DefaultServerBuilder(services).Build();
             services.AddSingleton(builder);
-         
             return builder;
         }
 
@@ -36,13 +37,19 @@ namespace Foundation.Server
         /// </summary>
         /// <param name="provider"></param>
         /// <returns></returns>
-        public static IServiceProvider UseFoundationServer(this IServiceProvider provider)
+        public static IApplicationBuilder UseFoundationServer(this IApplicationBuilder app)
         {
+            var provider = app.ApplicationServices;
             var builder = provider.GetService<IServerBuilder>();
-            builder.Packs.ForEach(pack => {
+            builder.Packs.ForEach(pack =>
+            {
                 pack.UsePack(provider);
             });
-            return provider;
+
+            // 异常处理插件
+            app.UseGlobalExceptionHandler();
+
+            return app;
         }
     }
 }
