@@ -1,4 +1,0 @@
-C:\Project\Foundation\src\Foundation.Server\bin\Debug\netstandard2.1\Foundation.Core.dll
-C:\Project\Foundation\src\Foundation.Server\obj\Debug\netstandard2.1\Foundation.Server.csprojAssemblyReference.cache
-C:\Project\Foundation\src\Foundation.Server\obj\Debug\netstandard2.1\Foundation.Server.AssemblyInfoInputs.cache
-C:\Project\Foundation\src\Foundation.Server\obj\Debug\netstandard2.1\Foundation.Server.AssemblyInfo.cs
