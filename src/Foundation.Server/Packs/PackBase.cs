@@ -1,6 +1,7 @@
 ﻿using Foundation.Core.Extensions;
 using Foundation.Server.Dependency;
 using Foundation.Server.Packs.Enum;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
@@ -30,18 +31,14 @@ namespace Foundation.Server.Packs
         /// <param name="services">依赖注入服务容器</param>
         /// <returns></returns>
         public abstract IServiceCollection AddServices(IServiceCollection services);
-        //{
-        //    return services;
-        //}
 
         /// <summary>
         ///     应用模块服务
         /// </summary>
         /// <param name="provider">服务提供者</param>
-        public virtual void UsePack(IServiceProvider provider)
-        {
-            IsEnabled = true;
-        }
+        public virtual void UsePack(IServiceProvider provider) => IsEnabled = true;
+
+        public virtual void UsePack(IApplicationBuilder app) => UsePack(app.ApplicationServices);
 
         /// <summary>
         ///     获取当前模块的依赖模块类型
