@@ -10,3 +10,15 @@ C:\Project\Foundation\src\Diomin.Foundation\Diomin.Foundation.Server\bin\Release
 C:\Project\Foundation\src\Diomin.Foundation\Diomin.Foundation.Server\obj\Release\netstandard2.1\Foundation.Server.csproj.CopyComplete
 C:\Project\Foundation\src\Diomin.Foundation\Diomin.Foundation.Server\obj\Release\netstandard2.1\Foundation.Server.dll
 C:\Project\Foundation\src\Diomin.Foundation\Diomin.Foundation.Server\obj\Release\netstandard2.1\Foundation.Server.pdb
+D:\Project\Foundation\src\Foundation.Server\bin\Release\netstandard2.1\Foundation.Server.deps.json
+D:\Project\Foundation\src\Foundation.Server\bin\Release\netstandard2.1\Foundation.Server.dll
+D:\Project\Foundation\src\Foundation.Server\bin\Release\netstandard2.1\Foundation.Server.pdb
+D:\Project\Foundation\src\Foundation.Server\bin\Release\netstandard2.1\Foundation.Core.dll
+D:\Project\Foundation\src\Foundation.Server\bin\Release\netstandard2.1\Foundation.Core.pdb
+D:\Project\Foundation\src\Foundation.Server\obj\Release\netstandard2.1\Foundation.Server.csprojAssemblyReference.cache
+D:\Project\Foundation\src\Foundation.Server\obj\Release\netstandard2.1\Foundation.Server.AssemblyInfoInputs.cache
+D:\Project\Foundation\src\Foundation.Server\obj\Release\netstandard2.1\Foundation.Server.AssemblyInfo.cs
+D:\Project\Foundation\src\Foundation.Server\obj\Release\netstandard2.1\Foundation.Server.csproj.CoreCompileInputs.cache
+D:\Project\Foundation\src\Foundation.Server\obj\Release\netstandard2.1\Foundation.Server.csproj.CopyComplete
+D:\Project\Foundation\src\Foundation.Server\obj\Release\netstandard2.1\Foundation.Server.dll
+D:\Project\Foundation\src\Foundation.Server\obj\Release\netstandard2.1\Foundation.Server.pdb

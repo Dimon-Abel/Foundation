@@ -57,7 +57,7 @@ namespace Foundation.Core.Utility
                             smtpSend(entity);
                         }
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         string title = null;
                         string to = null;

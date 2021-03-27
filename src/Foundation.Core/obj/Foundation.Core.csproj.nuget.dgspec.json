@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\Foundation\\src\\Foundation.Core\\Foundation.Core.csproj": {}
+    "D:\\Project\\Foundation\\src\\Foundation.Core\\Foundation.Core.csproj": {}
   },
   "projects": {
-    "C:\\Project\\Foundation\\src\\Foundation.Core\\Foundation.Core.csproj": {
+    "D:\\Project\\Foundation\\src\\Foundation.Core\\Foundation.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Foundation\\src\\Foundation.Core\\Foundation.Core.csproj",
+        "projectUniqueName": "D:\\Project\\Foundation\\src\\Foundation.Core\\Foundation.Core.csproj",
         "projectName": "Foundation.Core",
-        "projectPath": "C:\\Project\\Foundation\\src\\Foundation.Core\\Foundation.Core.csproj",
+        "projectPath": "D:\\Project\\Foundation\\src\\Foundation.Core\\Foundation.Core.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Foundation\\src\\Foundation.Core\\obj\\",
+        "outputPath": "D:\\Project\\Foundation\\src\\Foundation.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://dev.iduo.cc:8824/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

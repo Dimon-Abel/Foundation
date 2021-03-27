@@ -19,9 +19,6 @@ namespace Foundation.Server.Reflection.Realization
     {
         private readonly bool _filterNetAssembly;
 
-        private static readonly ICompilationAssemblyResolver AssemblyResolver;
-        private static readonly ConcurrentDictionary<string, CompilationLibrary> DependencyDLL;
-
         /// <summary>
         ///     初始化一个<see cref="AppDomainAllAssemblyFinder" />类型的新实例
         /// </summary>
