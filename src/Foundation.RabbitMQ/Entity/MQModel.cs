@@ -1,5 +1,6 @@
 ﻿using Foundation.RabbitMQ.Enums;
 using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -67,6 +68,12 @@ namespace Foundation.RabbitMQ.Entity
         /// <param name="body"></param>
         public void Publish(string exchangeName, string routeKey, IBasicProperties properties, ReadOnlyMemory<byte> body) =>
             _model.BasicPublish(exchangeName, routeKey, properties, body);
+
+        public EventingBasicConsumer CreateConsumer(Action<object, BasicDeliverEventArgs> action)
+        {
+            EventingBasicConsumer consumer = new EventingBasicConsumer(_model);
+            consumer.Received += (ch, ea) => action.Invoke(ch, ea);
+        }
 
         public void Dispose() => _model.Dispose();
     }
