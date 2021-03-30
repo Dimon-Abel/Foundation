@@ -8,9 +8,9 @@ using System.Text;
 
 namespace Foundation.Dapper
 {
-    public class DapperPack : PackBase
+    public static class ServiceCollectionExtensions
     {
-        public override IServiceCollection AddServices(IServiceCollection services)
+        public static IServiceCollection AddDapper(IServiceCollection services)
         {
             services.AddTransient<IDapperExecute, DapperExecute>();
             return services;
