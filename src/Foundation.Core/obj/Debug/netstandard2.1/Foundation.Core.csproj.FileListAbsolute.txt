@@ -6,3 +6,4 @@ C:\Project\Foundation\src\Foundation.Core\obj\Debug\netstandard2.1\Foundation.Co
 C:\Project\Foundation\src\Foundation.Core\obj\Debug\netstandard2.1\Foundation.Core.csproj.CoreCompileInputs.cache
 C:\Project\Foundation\src\Foundation.Core\obj\Debug\netstandard2.1\Foundation.Core.dll
 C:\Project\Foundation\src\Foundation.Core\obj\Debug\netstandard2.1\Foundation.Core.pdb
+C:\Project\Foundation\src\Foundation.Core\obj\Debug\netstandard2.1\Foundation.Core.csprojAssemblyReference.cache

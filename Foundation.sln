@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.Server", "src\Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.RabbitMQ", "src\Foundation.RabbitMQ\Foundation.RabbitMQ.csproj", "{C64C062C-B71A-4658-A035-5D19613CACED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.Test", "src\Foundation.Test\Foundation.Test.csproj", "{1B0204C2-51AA-45B8-8828-D1CE90EA73A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.Test", "src\Foundation.Test\Foundation.Test.csproj", "{1B0204C2-51AA-45B8-8828-D1CE90EA73A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A70ABB7C-F749-4ED9-AE67-E0CB1E0FD436}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +50,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{607BA5C2-F140-4728-9E62-35E70B56F5A3} = {A70ABB7C-F749-4ED9-AE67-E0CB1E0FD436}
+		{1E9FF465-6FD1-4D69-8CCA-F7E8DD7B4230} = {A70ABB7C-F749-4ED9-AE67-E0CB1E0FD436}
+		{AC19165B-509F-408D-BB1C-19441AA0D3FB} = {A70ABB7C-F749-4ED9-AE67-E0CB1E0FD436}
+		{F111BEEE-9D32-4468-B4EE-7821B7304A59} = {A70ABB7C-F749-4ED9-AE67-E0CB1E0FD436}
+		{C64C062C-B71A-4658-A035-5D19613CACED} = {A70ABB7C-F749-4ED9-AE67-E0CB1E0FD436}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56BBF481-A7C5-4E63-B31A-1002A57BBE44}
