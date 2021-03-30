@@ -5,8 +5,6 @@ using Microsoft.Extensions.Options;
 
 namespace Foundation.RabbitMQ.Common
 {
-    #region RabbitMQ客户端
-
     /// <summary>
     /// RabbitMQ客户端
     /// </summary>
@@ -46,6 +44,4 @@ namespace Foundation.RabbitMQ.Common
 
         #endregion
     }
-
-    #endregion
 }

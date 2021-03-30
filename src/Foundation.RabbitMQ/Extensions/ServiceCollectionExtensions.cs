@@ -9,8 +9,6 @@ using System;
 
 namespace Foundation.RabbitMQ.Extensions
 {
-    #region ServiceCollection扩展方法
-
     /// <summary>
     /// ServiceCollection扩展方法
     /// </summary>
@@ -53,6 +51,4 @@ namespace Foundation.RabbitMQ.Extensions
 
         #endregion 添加RabbitMQ消息总线
     }
-
-    #endregion ServiceCollection扩展方法
 }

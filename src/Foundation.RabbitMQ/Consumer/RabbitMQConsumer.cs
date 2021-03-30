@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Foundation.RabbitMQ.Consumer
 {
-    #region RabbitMQ消费者
-
     /// <summary>
     /// RabbitMQ消费者
     /// </summary>
@@ -84,6 +82,4 @@ namespace Foundation.RabbitMQ.Consumer
 
         #endregion
     }
-
-    #endregion
 }

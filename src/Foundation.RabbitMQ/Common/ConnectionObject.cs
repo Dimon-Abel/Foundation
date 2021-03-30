@@ -8,8 +8,6 @@ using System.Runtime.CompilerServices;
 
 namespace Foundation.RabbitMQ.Common
 {
-    #region 连接对象
-
     /// <summary>
     /// 连接对象
     /// </summary>
@@ -116,6 +114,4 @@ namespace Foundation.RabbitMQ.Common
 
         #endregion
     }
-
-    #endregion
 }

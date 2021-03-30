@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Foundation.RabbitMQ.Producer
 {
-    #region RabbitMQ消息生产者
-
     /// <summary>
     /// RabbitMQ消息生产者
     /// </summary>
@@ -73,6 +71,4 @@ namespace Foundation.RabbitMQ.Producer
 
         #endregion 发送消息
     }
-
-    #endregion RabbitMQ消息生产者
 }

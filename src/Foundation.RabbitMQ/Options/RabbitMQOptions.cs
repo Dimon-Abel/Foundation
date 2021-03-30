@@ -4,8 +4,6 @@ using System.Linq;
 
 namespace Foundation.RabbitMQ.Options
 {
-    #region RabbitMQ配置
-
     /// <summary>
     /// RabbitMQ配置
     /// </summary>
@@ -14,7 +12,7 @@ namespace Foundation.RabbitMQ.Options
         /// <summary>
         /// 交换机名称
         /// </summary>
-        public string ExchangeName { get; set; } = "HsFoundation";
+        public string ExchangeName { get; set; } = "Foundation";
 
         /// <summary>
         /// 服务器多个HostName之间用逗号隔开
@@ -51,6 +49,4 @@ namespace Foundation.RabbitMQ.Options
         /// </summary>
         public int ConnectionPoolSize { get; set; } = 20;
     }
-
-    #endregion RabbitMQ配置
 }

@@ -1,7 +1,5 @@
 ﻿namespace Foundation.RabbitMQ.Options
 {
-    #region 消息生产者配置
-
     /// <summary>
     /// 消息生产者配置
     /// </summary>
@@ -12,6 +10,4 @@
         /// </summary>
         public int MaxPublishMessages { get; } = 50;
     }
-
-    #endregion
 }

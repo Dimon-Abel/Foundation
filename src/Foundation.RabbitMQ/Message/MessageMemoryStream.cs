@@ -4,8 +4,6 @@ using System.IO;
 
 namespace Foundation.RabbitMQ.Message
 {
-    #region 消息内存流
-
     /// <summary>
     /// 消息内存流
     /// </summary>
@@ -262,6 +260,4 @@ namespace Foundation.RabbitMQ.Message
 
         #endregion 重新分配缓存区
     }
-
-    #endregion 消息内存流
 }

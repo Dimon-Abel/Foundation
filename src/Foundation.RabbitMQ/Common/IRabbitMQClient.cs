@@ -1,7 +1,5 @@
 ﻿namespace Foundation.RabbitMQ.Common
 {
-    #region RabbitMQ客户端
-
     /// <summary>
     /// RabbitMQ客户端
     /// </summary>
@@ -13,6 +11,4 @@
         /// <returns></returns>
         public ChannelObject GetChannel();
     }
-
-    #endregion
 }

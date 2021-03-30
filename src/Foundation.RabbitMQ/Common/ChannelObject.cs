@@ -10,8 +10,6 @@ using System.Threading.Tasks.Dataflow;
 
 namespace Foundation.RabbitMQ.Common
 {
-    #region 消息通道对象
-
     /// <summary>
     /// 消息通道对象
     /// </summary>
@@ -267,6 +265,4 @@ namespace Foundation.RabbitMQ.Common
 
         #endregion 释放资源
     }
-
-    #endregion 消息通道对象
 }

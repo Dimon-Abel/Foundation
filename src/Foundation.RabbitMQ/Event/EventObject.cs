@@ -2,8 +2,6 @@
 
 namespace KingMetal.Domains.Abstractions.Event
 {
-    #region 事件对象
-
     /// <summary>
     /// 事件对象
     /// </summary>
@@ -38,6 +36,4 @@ namespace KingMetal.Domains.Abstractions.Event
 
         #endregion
     }
-
-    #endregion
 }

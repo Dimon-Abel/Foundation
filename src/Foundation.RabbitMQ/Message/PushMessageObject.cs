@@ -2,8 +2,6 @@
 
 namespace Foundation.RabbitMQ.Message
 {
-    #region 要推送的消息对象
-
     /// <summary>
     /// 要推送的消息对象
     /// </summary>
@@ -58,7 +56,5 @@ namespace Foundation.RabbitMQ.Message
 
         #endregion
     }
-
-    #endregion
 }
 

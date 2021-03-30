@@ -2,15 +2,11 @@
 
 namespace Foundation.RabbitMQ.Message
 {
-    #region 消息
-
     /// <summary>
     /// 消息
     /// </summary>
     public interface IMessage
     {
-        #region 属性
-
         /// <summary>
         /// 消息Name
         /// </summary>
@@ -26,18 +22,10 @@ namespace Foundation.RabbitMQ.Message
         /// </summary>
         public EventMetadata EventMetadata { get; }
 
-        #endregion 属性
-
-        #region 方法
-
         /// <summary>
         /// 获取消息的字节数组
         /// </summary>
         /// <returns> </returns>
         byte[] GetBytes();
-
-        #endregion 方法
     }
-
-    #endregion 消息
 }

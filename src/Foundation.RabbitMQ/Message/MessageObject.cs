@@ -7,8 +7,6 @@ using System.Threading.Tasks;
 
 namespace Foundation.RabbitMQ.Message
 {
-    #region 事件包装对象
-
     /// <summary>
     /// 事件包装对象
     /// </summary>
@@ -43,7 +41,5 @@ namespace Foundation.RabbitMQ.Message
 
         #endregion
     }
-
-    #endregion
 }
 

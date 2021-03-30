@@ -4,8 +4,6 @@ using System.Text;
 #nullable disable
 namespace Foundation.RabbitMQ.Event
 {
-    #region 事件元数据
-
     /// <summary>
     /// 事件元数据
     /// </summary>
@@ -134,6 +132,4 @@ namespace Foundation.RabbitMQ.Event
 
         #endregion
     }
-
-    #endregion
 }

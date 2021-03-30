@@ -2,8 +2,6 @@
 
 namespace Foundation.RabbitMQ.Extensions
 {
-    #region 配置对象助手类
-
     /// <summary>
     /// 配置对象助手类
     /// </summary>
@@ -28,6 +26,4 @@ namespace Foundation.RabbitMQ.Extensions
 
         #endregion
     }
-
-    #endregion
 }

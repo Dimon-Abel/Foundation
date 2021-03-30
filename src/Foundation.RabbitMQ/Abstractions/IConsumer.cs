@@ -3,8 +3,6 @@ using System.Threading.Tasks;
 
 namespace Foundation.RabbitMQ.Abstractions
 {
-    #region 消息消费者
-
     /// <summary>
     /// 消息消费者
     /// </summary>
@@ -35,6 +33,4 @@ namespace Foundation.RabbitMQ.Abstractions
         /// <param name="enqueue">是否重新入队</param>
         void Nack(string group, ulong deliveryTag, bool multiple, bool enqueue);
     }
-
-    #endregion
 }

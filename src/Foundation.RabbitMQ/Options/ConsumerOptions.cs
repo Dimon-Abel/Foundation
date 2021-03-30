@@ -1,7 +1,5 @@
 ﻿namespace Foundation.RabbitMQ.Options
 {
-    #region 消费者配置
-
     /// <summary>
     /// 消费者配置
     /// </summary>
@@ -22,6 +20,4 @@
         /// </summary>
         public int CunsumerMaxBatchSize { get; set; } = 10000;
     }
-
-    #endregion
 }

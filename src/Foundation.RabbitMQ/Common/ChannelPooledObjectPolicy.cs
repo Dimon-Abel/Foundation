@@ -9,8 +9,6 @@ using System.Runtime.CompilerServices;
 
 namespace Foundation.RabbitMQ.Common
 {
-    #region RabbitMQ通道创建策略
-
     /// <summary>
     /// RabbitMQ通道创建策略
     /// </summary>
@@ -127,6 +125,4 @@ namespace Foundation.RabbitMQ.Common
 
         #endregion
     }
-
-#endregion
 }

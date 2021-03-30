@@ -4,8 +4,6 @@ using System.Threading.Tasks;
 
 namespace Foundation.RabbitMQ.Abstractions
 {
-    #region 消息生产者
-
     /// <summary>
     /// 消息生产者
     /// </summary>
@@ -27,6 +25,4 @@ namespace Foundation.RabbitMQ.Abstractions
         /// <returns> </returns>
         Task<bool> Publish(IEnumerable<PushMessageObject> messageObject);
     }
-
-    #endregion 消息生产者
 }
