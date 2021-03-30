@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.EventBus", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.Server", "src\Foundation.Server\Foundation.Server.csproj", "{F111BEEE-9D32-4468-B4EE-7821B7304A59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.RabbitMQ", "src\Foundation.RabbitMQ\Foundation.RabbitMQ.csproj", "{C64C062C-B71A-4658-A035-5D19613CACED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.RabbitMQ", "src\Foundation.RabbitMQ\Foundation.RabbitMQ.csproj", "{C64C062C-B71A-4658-A035-5D19613CACED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.Test", "src\Foundation.Test\Foundation.Test.csproj", "{1B0204C2-51AA-45B8-8828-D1CE90EA73A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C64C062C-B71A-4658-A035-5D19613CACED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C64C062C-B71A-4658-A035-5D19613CACED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C64C062C-B71A-4658-A035-5D19613CACED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0204C2-51AA-45B8-8828-D1CE90EA73A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0204C2-51AA-45B8-8828-D1CE90EA73A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0204C2-51AA-45B8-8828-D1CE90EA73A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0204C2-51AA-45B8-8828-D1CE90EA73A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

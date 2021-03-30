@@ -24,12 +24,13 @@ namespace Foundation.RabbitMQ.Entity
         /// 创建通道
         /// </summary>
         /// <param name="key">通道标识</param>
-        public MQModel CreateOrGetModel(string key = "default")
+        /// <param name="enableConfirm">是否启用消息确认</param>
+        public MQModel CreateOrGetModel(string key = "default", bool enableConfirm = true)
         {
             if (_models.TryGetValue(key, out var model))
                 return model;
 
-            var newModel = new MQModel(_connection.CreateModel());
+            var newModel = new MQModel(_connection.CreateModel(), enableConfirm);
             _models.AddOrUpdate(key, newModel, (key, model) => model);
             return newModel;
         }

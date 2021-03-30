@@ -14,8 +14,15 @@ namespace Foundation.RabbitMQ.Entity
         /// 通道对象
         /// </summary>
         private static IModel _model { get; set; }
-        public MQModel(IModel model) => _model = model;
-
+        /// <summary>
+        /// 启用消息确认
+        /// </summary>
+        private bool _enableConfirm { get; set; }
+        public MQModel(IModel model, bool enableConfirm)
+        {
+            _model = model;
+            _enableConfirm = enableConfirm;
+        }
         /// <summary>
         /// 创建交换机
         /// </summary>
@@ -39,7 +46,7 @@ namespace Foundation.RabbitMQ.Entity
         /// <param name="autoDelete">是否自动删除,自动删除的前提是：致少有一个消费者连接到这个队列，之后所有与这个队列连接的消费者都断开 时，才会自动删除。</param>
         /// <param name="args">其它参数</param>
         /// <returns></returns>
-        public MQModel CreateOrGetQueue(string queueName, bool durable = false, bool exclusive = true, bool autoDelete = false, IDictionary<string, object> args = null)
+        public MQModel CreateOrGetQueue(string queueName, bool durable = false, bool exclusive = false, bool autoDelete = false, IDictionary<string, object> args = null)
         {
             _model.QueueDeclare(queueName, durable, exclusive, autoDelete);
             return this;
@@ -69,10 +76,20 @@ namespace Foundation.RabbitMQ.Entity
         public void Publish(string exchangeName, string routeKey, IBasicProperties properties, ReadOnlyMemory<byte> body) =>
             _model.BasicPublish(exchangeName, routeKey, properties, body);
 
-        public EventingBasicConsumer CreateConsumer(Action<object, BasicDeliverEventArgs> action)
+        /// <summary>
+        /// 创建消费者
+        /// </summary>
+        /// <param name="action">回调委托</param>
+        public EventingBasicConsumer CreateConsumer(Func<object, BasicDeliverEventArgs, bool> action)
         {
             EventingBasicConsumer consumer = new EventingBasicConsumer(_model);
-            consumer.Received += (ch, ea) => action.Invoke(ch, ea);
+            consumer.Received += (obj, args) =>
+            {
+                var state = action.Invoke(obj, args);
+                // 确认消息被消费
+                if (state) _model.BasicAck(args.DeliveryTag, false);
+            };
+            return consumer;
         }
 
         public void Dispose() => _model.Dispose();
