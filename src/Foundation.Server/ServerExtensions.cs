@@ -44,6 +44,7 @@ namespace Foundation.Server
             builder.Packs.ForEach(pack =>
             {
                 pack.UsePack(provider);
+                pack.UsePack(app);
             });
 
             // 异常处理插件

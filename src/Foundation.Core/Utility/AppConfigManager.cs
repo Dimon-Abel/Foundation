@@ -1,5 +1,6 @@
 ﻿using Foundation.Core.Extensions;
 using Microsoft.Extensions.Configuration;
+using System;
 using System.IO;
 
 namespace Foundation.Core.Utility
@@ -50,6 +51,13 @@ namespace Foundation.Core.Utility
                 return value.CastTo<T>();
 
             return value.FromJson<T>();
+        }
+
+        public static T GetSection<T>(string key)
+        {
+            T obj = Activator.CreateInstance<T>();
+            configuration.GetSection(key).Bind(obj);
+            return obj;
         }
 
         public static T GetInstance<T>(string key, T instance)

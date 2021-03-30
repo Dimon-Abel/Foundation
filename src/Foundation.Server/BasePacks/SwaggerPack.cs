@@ -9,6 +9,9 @@ using System.IO;
 using System.Linq;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.Configuration;
+using Foundation.Core.Utility;
+using Foundation.Server.Dependency;
 
 namespace Foundation.Server.BasePacks
 {
@@ -41,7 +44,7 @@ namespace Foundation.Server.BasePacks
         public override int Order => 2;
         public override IServiceCollection AddServices(IServiceCollection services)
         {
-            _options = services.BuildServiceProvider().GetService<IOptions<FoundationSwaggerOptions>>()?.Value;
+            _options = AppConfigManager.GetSection<FoundationSwaggerOptions>("SwaggerOptions");
             if (_options != null)
             {
                 services.AddSwaggerGen(options =>
@@ -55,7 +58,6 @@ namespace Foundation.Server.BasePacks
 
         public override void UsePack(IApplicationBuilder app)
         {
-            UsePack(app);
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {

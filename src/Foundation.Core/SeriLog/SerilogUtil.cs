@@ -26,13 +26,13 @@ namespace Foundation.Core.SeriLog
                     .Enrich.FromLogContext();
 
                 var config = AppConfigManager.GetConfiguration();
-                var isWriteToFile = config.GetSection("Logging:WriteToFile").Value.CastTo(true);
+                var isWriteToFile = config.GetSection("Logging:WriteToFile")?.Value.CastTo(true) ?? false;
                 if (isWriteToFile)
                 {
                     // 配置日志输出到文件，文件输出到当前项目的 logs 目录下
                     logConfig.WriteTo.File(Path.Combine("logs", "log.txt"), rollingInterval: RollingInterval.Day, outputTemplate: "[{Timestamp:HH:mm:ss.fff} {Level:u3}] {Message:lj}{NewLine} {Exception}");
                 }
-                var elasticSearchServer = config.GetSection("Logging:ElasticSearch:Server").Value;
+                var elasticSearchServer = config.GetSection("Logging:ElasticSearch:Server")?.Value;
                 if (!elasticSearchServer.IsNullOrEmpty())
                 {
                     var indexName = config.GetSection("Logging:ElasticSearch:IndexName").Value;

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\netcoreapp3.1\</OutputPath>
+    <DocumentationFile>bin\Debug\netcoreapp3.1\Foundation.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Foundation.RabbitMQ\Foundation.RabbitMQ.csproj" />
+    <ProjectReference Include="..\src\Foundation.Server\Foundation.Server.csproj" />
+  </ItemGroup>
+
+
+</Project>
