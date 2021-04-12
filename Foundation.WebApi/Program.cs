@@ -9,13 +9,24 @@ using System.Threading.Tasks;
 
 namespace Foundation.WebApi
 {
+    /// <summary>
+    /// 程序启动项
+    /// </summary>
     public class Program
     {
+        /// <summary>
+        /// 主方法
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+        /// <summary>
+        /// 程序启动项
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
