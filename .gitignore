@@ -260,3 +260,10 @@ paket-files/
 __pycache__/
 *.pyc
 
+# ignore target folder
+obj/
+.vs/
+
+# ignore Eclipse files
+.suo
+
