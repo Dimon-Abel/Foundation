@@ -263,6 +263,7 @@ __pycache__/
 # ignore target folder
 obj/
 .vs/
+Release/
 
 # ignore Eclipse files
 .suo
