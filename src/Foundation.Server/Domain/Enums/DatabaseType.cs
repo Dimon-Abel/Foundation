@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Foundation.Server.Domain.Entity
+namespace Foundation.Server.Domain.Enums
 {
     /// <summary>
     ///     表示数据库类型

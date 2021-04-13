@@ -3,9 +3,9 @@
 namespace Foundation.Server.Domain.Interface
 {
     /// <summary>
-    ///     定义<see cref="IOutputDto" />类型查找器
+    ///     定义<see cref="IOutputDto{TKey}" />类型查找器
     /// </summary>
     public interface IOutputDtoTypeFinder : ITypeFinder
     {
     }
-}}
+}
