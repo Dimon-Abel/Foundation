@@ -10,8 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Foundation.RabbitMQ\Foundation.RabbitMQ.csproj" />
-    <ProjectReference Include="..\src\Foundation.Server\Foundation.Server.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.RabbitMQ\Foundation.RabbitMQ.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.Server\Foundation.Server.csproj" />
   </ItemGroup>
 
 
