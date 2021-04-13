@@ -44,7 +44,7 @@ namespace Client
                 .Configure<ClusterOptions>(options =>
                 {
                     options.ClusterId = "dev";
-                    options.ServiceId = "OrleansBasics";
+                    options.ServiceId = "Grains";
                 })
                 .ConfigureLogging(logging => logging.AddConsole())
                 .Build();
