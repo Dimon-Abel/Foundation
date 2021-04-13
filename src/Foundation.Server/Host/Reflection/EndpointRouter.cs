@@ -40,7 +40,7 @@ namespace Foundation.Server.Host.Reflection
 
         private IEndpointHandler GetEndpointHandler(Endpoint endpoint, HttpContext context)
         {
-            if (true) //(_options.Endpoints.IsEndpointEnabled(endpoint))
+            if (true) // (_options.Endpoints.IsEndpointEnabled(endpoint))
             {
                 var handler = context.RequestServices.GetService(endpoint.Handler) as IEndpointHandler;
                 if (handler != null)
@@ -48,14 +48,7 @@ namespace Foundation.Server.Host.Reflection
                     _logger.LogDebug("Endpoint enabled: {endpoint}, successfully created handler: {endpointHandler}", endpoint.Name, endpoint.Handler.FullName);
                     return handler;
                 }
-                else
-                {
-                    _logger.LogDebug("Endpoint enabled: {endpoint}, failed to create handler: {endpointHandler}", endpoint.Name, endpoint.Handler.FullName);
-                }
-            }
-            else
-            {
-                _logger.LogWarning("Endpoint disabled: {endpoint}", endpoint.Name);
+                else  _logger.LogDebug("Endpoint enabled: {endpoint}, failed to create handler: {endpointHandler}", endpoint.Name, endpoint.Handler.FullName);
             }
 
             return null;
