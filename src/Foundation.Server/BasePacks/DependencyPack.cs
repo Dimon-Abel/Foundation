@@ -49,9 +49,7 @@ namespace Foundation.Server.BasePacks
 
             Type[] dependencyTypes = dependencyTypeFinder.FindAll();
             foreach (Type dependencyType in dependencyTypes)
-            {
                 AddToServices(services, dependencyType);
-            }
 
             return services;
         }
@@ -64,14 +62,12 @@ namespace Foundation.Server.BasePacks
         protected void AddToServices(IServiceCollection services, Type implementationType)
         {
             if (implementationType.IsAbstract || implementationType.IsInterface)
-            {
                 return;
-            }
+
             ServiceLifetime? lifetime = GetLifetimeOrNull(implementationType);
             if (lifetime == null)
-            {
                 return;
-            }
+
             DependencyAttribute dependencyAttribute = implementationType.GetAttribute<DependencyAttribute>();
             Type[] serviceTypes = GetImplementedInterfaces(implementationType);
 
@@ -84,9 +80,7 @@ namespace Foundation.Server.BasePacks
 
             //服务实现显示要求注册身处时，注册自身并且继续注册接口
             if (dependencyAttribute?.AddSelf == true)
-            {
                 services.TryAdd(new ServiceDescriptor(implementationType, implementationType, lifetime.Value));
-            }
 
             //注册服务
             for (int i = 0; i < serviceTypes.Length; i++)
@@ -102,28 +96,16 @@ namespace Foundation.Server.BasePacks
                 bool multiple = serviceType.HasAttribute<MultipleDependencyAttribute>();
                 if (i == 0)
                 {
-                    if (multiple)
-                    {
-                        services.Add(descriptor);
-                    }
-                    else
-                    {
-                        AddSingleService(services, descriptor, dependencyAttribute);
-                    }
+                    if (multiple) services.Add(descriptor);
+                    else AddSingleService(services, descriptor, dependencyAttribute);
                 }
                 else
                 {
                     //有多个接口，后边的接口注册使用第一个接口的实例，保证同个实现类的多个接口获得同一实例
                     Type firstServiceType = serviceTypes[0];
                     descriptor = new ServiceDescriptor(serviceType, provider => provider.GetService(firstServiceType), lifetime.Value);
-                    if (multiple)
-                    {
-                        services.Add(descriptor);
-                    }
-                    else
-                    {
-                        AddSingleService(services, descriptor, dependencyAttribute);
-                    }
+                    if (multiple) services.Add(descriptor);
+                    else AddSingleService(services, descriptor, dependencyAttribute);
                 }
             }
         }
@@ -136,42 +118,18 @@ namespace Foundation.Server.BasePacks
         protected virtual ServiceLifetime? GetLifetimeOrNull(Type type)
         {
             DependencyAttribute attribute = type.GetAttribute<DependencyAttribute>();
-            if (attribute != null)
-            {
-                return attribute.Lifetime;
-            }
-
-            if (type.IsDeriveClassFrom<ITransientDependency>())
-            {
-                return ServiceLifetime.Transient;
-            }
-
-            if (type.IsDeriveClassFrom<IScopeDependency>())
-            {
-                return ServiceLifetime.Scoped;
-            }
-
-            if (type.IsDeriveClassFrom<ISingletonDependency>())
-            {
-                return ServiceLifetime.Singleton;
-            }
+            if (attribute != null) return attribute.Lifetime;
+            if (type.IsDeriveClassFrom<ITransientDependency>()) return ServiceLifetime.Transient;
+            if (type.IsDeriveClassFrom<IScopeDependency>()) return ServiceLifetime.Scoped;
+            if (type.IsDeriveClassFrom<ISingletonDependency>()) return ServiceLifetime.Singleton;
 
             return null;
         }
         private static void AddSingleService(IServiceCollection services, ServiceDescriptor descriptor, DependencyAttribute dependencyAttribute)
         {
-            if (dependencyAttribute?.ReplaceExisting == true)
-            {
-                services.Replace(descriptor);
-            }
-            else if (dependencyAttribute?.TryAdd == true)
-            {
-                services.TryAdd(descriptor);
-            }
-            else
-            {
-                services.Add(descriptor);
-            }
+            if (dependencyAttribute?.ReplaceExisting == true) services.Replace(descriptor);
+            else if (dependencyAttribute?.TryAdd == true) services.TryAdd(descriptor);
+            else services.Add(descriptor);
         }
         /// <summary>
         /// 重写以实现 获取实现类型的所有可注册服务接口
@@ -186,8 +144,7 @@ namespace Foundation.Server.BasePacks
             for (var index = 0; index < interfaceTypes.Length; index++)
             {
                 var interfaceType = interfaceTypes[index];
-                if (interfaceType.IsGenericType && !interfaceType.IsGenericTypeDefinition &&
-                    interfaceType.FullName == null)
+                if (interfaceType.IsGenericType && !interfaceType.IsGenericTypeDefinition && interfaceType.FullName == null)
                     interfaceTypes[index] = interfaceType.GetGenericTypeDefinition();
             }
             return interfaceTypes;
