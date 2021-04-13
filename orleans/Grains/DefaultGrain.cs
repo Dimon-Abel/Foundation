@@ -1,5 +1,6 @@
 ﻿using Grains.Interfaces;
 using Microsoft.Extensions.Logging;
+using Orleans;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Grains
 {
-    public class DefaultGrain : IBase
+    public class DefaultGrain : Grain, IBase
     {
         private readonly ILogger<DefaultGrain> _logger;
 
