@@ -15,6 +15,22 @@ namespace Foundation.Core.Extensions
     public static class CollectionExtensions
     {
         /// <summary>
+        /// 比较两个集合内是否有重叠值
+        /// </summary>
+        /// <param name="lst1">集合A</param>
+        /// <param name="lst2">集合B</param>
+        /// <param name="func">对比委托</param>
+        /// <returns></returns>
+        public static bool CompareList<T, V>(this ICollection<T> lst1, ICollection<V> lst2, Func<T, V, bool> func)
+        {
+            foreach (var item in lst1)
+                foreach (var item2 in lst2)
+                    if (func.Invoke(item, item2))
+                        return true;
+            return false;
+        }
+
+        /// <summary>
         /// 如果不为空，添加项
         /// </summary>
         public static void AddIfNotNull<T>(this ICollection<T> collection, T value) where T : class
