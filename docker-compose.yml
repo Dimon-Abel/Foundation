@@ -7,4 +7,4 @@ services:
       context: .\web\Foundation.Nuget
       dockerfile: Dockerfile
     ports:
-      -  "80:80"
+      -  "8024:80"
