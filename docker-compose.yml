@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  foundation.nuget:
+    image: ${DOCKER_REGISTRY-}foundationnuget
+    build:
+      context: .\web\Foundation.Nuget
+      dockerfile: Dockerfile

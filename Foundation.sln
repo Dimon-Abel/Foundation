@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataFlow", "web\DataFlow\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.Nuget", "web\Foundation.Nuget\Foundation.Nuget.csproj", "{F724FF60-9935-40BD-BBE4-31C24828ABA3}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{395A1980-1259-4D4D-8E72-6DB90ED02AB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F724FF60-9935-40BD-BBE4-31C24828ABA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F724FF60-9935-40BD-BBE4-31C24828ABA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F724FF60-9935-40BD-BBE4-31C24828ABA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395A1980-1259-4D4D-8E72-6DB90ED02AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395A1980-1259-4D4D-8E72-6DB90ED02AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395A1980-1259-4D4D-8E72-6DB90ED02AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395A1980-1259-4D4D-8E72-6DB90ED02AB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
