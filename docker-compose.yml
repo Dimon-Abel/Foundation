@@ -6,3 +6,5 @@ services:
     build:
       context: .\web\Foundation.Nuget
       dockerfile: Dockerfile
+    ports:
+      -  "80:80"
