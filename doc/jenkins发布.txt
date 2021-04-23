@@ -1,0 +1,10 @@
+administrator
+!234qwer
+
+1. 上传你的程序到 gitee
+2. 使用 gitee 的 jenkins 服务。( https://gitee.com/help/articles/4193)
+ 过程： 代码上传到 gitee, 然后 jenkins 监听到（webhook）后拉取代码. 编写脚本运行 docker-compose up -d 。自动发布。
+
+docker 部署的 jenkins 密码初始化在容器内部
+docker exec..............
+cat /var/jenkins_home/secrets/ini....password
